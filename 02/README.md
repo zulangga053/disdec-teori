@@ -2,7 +2,7 @@
 
 # Nim : 255410043
 
-# Materi Minggu 2: Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi
+# Materi Minggu 02: Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi
 
 **AI yang digunakan:** Google NotebookLM
 
