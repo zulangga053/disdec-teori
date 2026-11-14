@@ -1,3 +1,7 @@
+# Nama : Zul Ikhwanul Anggara
+
+# Nim : 255410043
+
 # Materi Minggu 03: Sinkronisasi dan Koordinasi pada Sistem Terdistribusi
 
 **AI yang digunakan:** Google NotebookLM
