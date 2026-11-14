@@ -197,7 +197,7 @@ Ketika jam fisik tidak dapat diandalkan untuk menentukan urutan kejadian (_event
 
 1. Setiap kejadian internal pada suatu node menambahkan angka _logical clock_ sebanyak **+1**.
 2. Ketika mengirimkan pesan, proses melampirkan nilai _logical clock_ terbarunya pada pesan tersebut.
-3. Ketika menerima pesan, proses penerima membandingkan nilai _logical clock_ lokal dengan nilai _logical clock_ yang terdapat pada pesan, mengambil angka terbesar ( $\max(\text{clock}_{\text{lokal}}$, $\text{clock}_{\text{pesan}})$ ), lalu menambahkan **+1**.
+3. Ketika menerima pesan, proses penerima membandingkan nilai _logical clock_ lokal dengan nilai _logical clock_ yang terdapat pada pesan, mengambil angka terbesar, lalu menambahkan **+1**: $\max(\text{clock}_{\text{lokal}}, \text{clock}_{\text{pesan}}) + 1$.
 
 #### Skenario Contoh: Logging 3 Mikroservis
 
