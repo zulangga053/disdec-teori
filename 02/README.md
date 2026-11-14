@@ -3,10 +3,10 @@
 **AI yang digunakan:** Google NotebookLM
 
 **Prompt:**
-Berdasarkan seluruh sumber materi yang telah saya unggah, buatkan rangkuman untuk perkuliahan minggu 02 dengan agenda pembahasan: Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi. Susun materi secara komprehensif, akurat, dan sistematis sesuai agenda pembahasan dosen dengan gaya bahasa akademik mahasiswa yang mudah dipahami.
+Berdasarkan materi tersebut, berikan saya poin" penting dalam materi tersebut untuk saya menyusun ringkasan" serta untuk di pelajari dalam materi : Pengenalan Sistem Terdistribusi dan Terdesentralisasi.
 
 **Bagian yang disesuaikan dari keluaran prompt ada pada:**
-Hasil rangkuman ini dibuat secara otomatis oleh AI berdasarkan sumber materi perkuliahan `02--proses-dan-komunikasi-antar-proses.pdf`. Dokumen ini belum mengalami penyuntingan manual dan masih perlu ditinjau serta disesuaikan kembali sesuai dengan pemahaman dan catatan perkuliahan individu.
+Format penyusunan rangkuman pada materi, serta sebagian isi" pada materi yang di susun tersebut.
 
 ---
 
