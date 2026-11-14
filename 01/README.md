@@ -1,5 +1,5 @@
-# Nama Zul Ikhwanul Anggara
-# Nim 255410043
+# Nama   : Zul Ikhwanul Anggara
+# Nim    : 255410043
 
 # Materi Minggu 01: Pengenalan Sistem Terdistribusi dan Terdesentralisasi
 
