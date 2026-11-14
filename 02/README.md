@@ -1,9 +1,13 @@
+# Nama : Zul Ikhwanul Anggara
+
+# Nim : 255410043
+
 # Materi Minggu 02: Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi
 
 **AI yang digunakan:** Google NotebookLM
 
 **Prompt:**
-Berdasarkan materi tersebut, berikan saya poin" penting dalam materi tersebut untuk saya menyusun ringkasan" serta untuk di pelajari dalam materi : Pengenalan Sistem Terdistribusi dan Terdesentralisasi.
+Berdasarkan materi tersebut, berikan saya poin" penting dalam materi tersebut untuk saya menyusun ringkasan" serta untuk di pelajari dalam materi : Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi.
 
 **Bagian yang disesuaikan dari keluaran prompt ada pada:**
 Format penyusunan rangkuman pada materi, serta sebagian isi" pada materi yang di susun tersebut.
@@ -193,17 +197,17 @@ Ketika jam fisik tidak dapat diandalkan untuk menentukan urutan kejadian (_event
 
 1. Setiap kejadian internal pada suatu node menambahkan angka _logical clock_ sebanyak **+1**.
 2. Ketika mengirimkan pesan, proses melampirkan nilai _logical clock_ terbarunya pada pesan tersebut.
-3. Ketika menerima pesan, proses penerima membandingkan nilai _logical clock_ lokal dengan nilai _logical clock_ yang terdapat pada pesan, mengambil angka terbesar ($\max(\text{clock}_{\text{lokal}}, \text{clock}_{\text{pesan}})$), lalu menambahkan **+1**.
+3. Ketika menerima pesan, proses penerima membandingkan nilai _logical clock_ lokal dengan nilai _logical clock_ yang terdapat pada pesan, mengambil angka terbesar, lalu menambahkan **+1**: max(clock<sub>lokal</sub>, clock<sub>pesan</sub>) + 1.
 
 #### Skenario Contoh: Logging 3 Mikroservis
 
 Diberikan 3 layanan yang awalnya memiliki _logical clock_ = 0:
 
-1. **Sales Service**: Mencatat transaksi penjualan $\rightarrow$ Clock lokal menjadi **1** ($0 + 1$). Mengirim pesan ke Product Service dengan timestamp **1**.
-2. **Product Service**: Menerima pesan ber-timestamp **1**. Membandingkan clock lokal (0) dengan timestamp pesan (1) $\rightarrow$ $\max(0, 1) + 1 = \mathbf{2}$. Mengirim pesan ke Invoice Service dengan timestamp **2**.
-3. **Invoice Service**: Menerima pesan ber-timestamp **2**. Membandingkan clock lokal (0) dengan timestamp pesan (2) $\rightarrow$ $\max(0, 2) + 1 = \mathbf{3}$. Faktur dicetak dengan timestamp logical **3**.
+1. **Sales Service**: Mencatat transaksi penjualan -> Clock lokal menjadi **1** (0 + 1). Mengirim pesan ke Product Service dengan timestamp **1**.
+2. **Product Service**: Menerima pesan ber-timestamp **1**. Membandingkan clock lokal (0) dengan timestamp pesan (1) -> max(0, 1) + 1 = **2**. Mengirim pesan ke Invoice Service dengan timestamp **2**.
+3. **Invoice Service**: Menerima pesan ber-timestamp **2**. Membandingkan clock lokal (0) dengan timestamp pesan (2) -> max(0, 2) + 1 = **3**. Faktur dicetak dengan timestamp logical **3**.
 
-Mekanisme ini menjamin urutan kejadian yang konsisten secara logis: Sales Service (1) $\rightarrow$ Product Service (2) $\rightarrow$ Invoice Service (3).
+Mekanisme ini menjamin urutan kejadian yang konsisten secara logis: Sales Service (1) -> Product Service (2) -> Invoice Service (3).
 
 ### 5.3 Evolusi Algoritma Logical Clock
 
