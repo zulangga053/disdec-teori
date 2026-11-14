@@ -1,9 +1,13 @@
+# Nama : Zul Ikhwanul Anggara
+
+# Nim : 255410043
+
 # Materi Minggu 02: Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi
 
 **AI yang digunakan:** Google NotebookLM
 
 **Prompt:**
-Berdasarkan materi tersebut, berikan saya poin" penting dalam materi tersebut untuk saya menyusun ringkasan" serta untuk di pelajari dalam materi : Pengenalan Sistem Terdistribusi dan Terdesentralisasi.
+Berdasarkan materi tersebut, berikan saya poin" penting dalam materi tersebut untuk saya menyusun ringkasan" serta untuk di pelajari dalam materi : Proses dan Komunikasi Antar Proses pada Sistem Terdistribusi.
 
 **Bagian yang disesuaikan dari keluaran prompt ada pada:**
 Format penyusunan rangkuman pada materi, serta sebagian isi" pada materi yang di susun tersebut.
