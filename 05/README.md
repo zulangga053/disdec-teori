@@ -10,7 +10,7 @@
 Berdasarkan materi tersebut, berikan saya poin" penting dalam materi tersebut untuk saya menyusun ringkasan" serta untuk di pelajari dalam materi : Fault Tolerance.
 
 **Bagian yang disesuaikan dari keluaran prompt ada pada:**
-Hasil rangkuman ini dibuat secara otomatis oleh AI berdasarkan sumber materi perkuliahan `05--fault-tolerant-sys.pdf` dan panduan praktikum `web-app-py-blacksheep-load-balancing-nginx.pdf`. Dokumen ini belum mengalami penyuntingan Format penyusunan rangkuman pada materi, serta sebagian isi" pada materi yang di susun tersebut.
+Format penyusunan rangkuman pada materi, serta sebagian isi" pada materi yang di susun tersebut.
 
 ---
 
